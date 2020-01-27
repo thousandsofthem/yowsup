@@ -21,7 +21,7 @@ else:
 setup(
     name='yowsup',
     version=yowsup.__version__,
-    url='http://github.com/tgalal/yowsup/',
+    url='https://github.com/thousandsofthem/yowsup',
     license='GPL-3+',
     author='Tarek Galal',
     tests_require=[],
