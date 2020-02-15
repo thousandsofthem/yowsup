@@ -23,9 +23,9 @@ class AndroidYowsupEnv(YowsupEnv):
     _VERSION = "2.19.244"
     _OS_NAME = "Android"
     _OS_VERSION = "8.0.0"
-    _DEVICE_NAME = "star2lte"
+    _DEVICE_NAME = "greatlte"
     _MANUFACTURER = "samsung"
-    _BUILD_VERSION = "star2ltexx-user 8.0.0 R16NW G965FXXU1ARCC release-keys"
+    _BUILD_VERSION = "greatltexx-user 8.0.0 R16NW N950FXXU3CRC1 release-keys"
     _AXOLOTL = True
 
     def getVersion(self):
