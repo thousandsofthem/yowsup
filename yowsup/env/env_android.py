@@ -17,16 +17,19 @@ class AndroidYowsupEnv(YowsupEnv):
         "YHNtYoIvt5R3X6YZylbPftF/8ayWTALBgcqhkjOOAQDBQADLwAwLAIUAKYCp0d6z4QQdyN74JDfQ2WCyi8CFDUM4CaNB+ceVXd" \
         "KtOrNTQcc0e+t"
 
-    _MD5_CLASSES = "mdoDmyNQSpRxFgrgVByjKQ=="
+    _MD5_CLASSES = "WbBW5BL9kkUSzLv8+p9J9g=="
     _KEY = "eQV5aq/Cg63Gsq1sshN9T3gh+UUp0wIw0xgHYT1bnCjEqOJQKCRrWxdAe2yvsDeCJL+Y4G3PRD2HUF7oUgiGo8vGlNJOaux26k+A2F3hj8A="
 
 
-    _VERSION = "2.20.27"
+    _VERSION = "2.20.64"
     _OS_NAME = "Android"
     _OS_VERSION = "8.0.0"
-    _DEVICE_NAME = "HWALP"
-    _MANUFACTURER = "HUAWEI"
-    _BUILD_VERSION = "ALP-L29-user 8.0.0 HUAWEIALP-L29S 43(C636):user release-keys__2018-10-01"
+    # Samsung Galaxy S8 Plus SM-G955F (8.0.0):Samsung:SM-G955F=samsung/dream2ltexx/dream2lte:8.0.0/R16NW/G955FXXU1CRC7:user/release-keys
+    # Samsung Galaxy S9 Plus SM-G965F (8.0.0):Samsung:SM-G965F=samsung/star2ltexx/star2lte:8.0.0/R16NW/G965FXXU1ARCC:user/release-keys
+
+    _DEVICE_NAME = "dream2lte"
+    _MANUFACTURER = "samsung"
+    _BUILD_VERSION = "dream2ltexx-user 8.0.0 R16NW G955FXXU1CRC7 release-keys"
     _AXOLOTL = True
 
     def getVersion(self):
