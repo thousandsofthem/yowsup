@@ -29,10 +29,11 @@ class AndroidYowsupEnv(YowsupEnv):
     # Samsung Galaxy S8 Plus SM-G955F (8.0.0):Samsung:SM-G955F=samsung/dream2ltexx/dream2lte:8.0.0/R16NW/G955FXXU1CRC7:user/release-keys
     # Samsung Galaxy S9 Plus SM-G965F (8.0.0):Samsung:SM-G965F=samsung/star2ltexx/star2lte:8.0.0/R16NW/G965FXXU1ARCC:user/release-keys
 
-    _DEVICE_NAME = "j7y17lte"
+    # _DEVICE_NAME = "j7y17lte"
+    _DEVICE_NAME = "dream2lte"
     _MANUFACTURER = "samsung"
-    # _BUILD_VERSION = "dream2ltexx-user 8.0.0 R16NW G955FXXU1CRC7 release-keys"
-    _BUILD_VERSION = "j7y17ltexx-user 8.0.0 M1AJQ J730FXXU3BRK2 release-keys"
+    _BUILD_VERSION = "dream2ltexx-user 8.0.0 R16NW G955FXXU1CRC7 release-keys"
+    # _BUILD_VERSION = "j7y17ltexx-user 8.0.0 M1AJQ J730FXXU3BRK2 release-keys"
     _AXOLOTL = True
 
     def getVersion(self):
