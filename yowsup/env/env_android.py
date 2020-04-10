@@ -28,11 +28,14 @@ class AndroidYowsupEnv(YowsupEnv):
     # Samsung Galaxy J7 2017 SM-J730F (8.1.0):Samsung:SM-J730F=samsung/j7y17ltexx/j7y17lte:8.1.0/M1AJQ/J730FXXU3BRK2:user/release-keys__2018-11-01
     # Samsung Galaxy S8 Plus SM-G955F (8.0.0):Samsung:SM-G955F=samsung/dream2ltexx/dream2lte:8.0.0/R16NW/G955FXXU1CRC7:user/release-keys
     # Samsung Galaxy S9 Plus SM-G965F (8.0.0):Samsung:SM-G965F=samsung/star2ltexx/star2lte:8.0.0/R16NW/G965FXXU1ARCC:user/release-keys
+    # Samsung Galaxy S9 SM-G960F (8.0.0):Samsung:SM-G960F=samsung/starltexx/starlte:8.0.0/R16NW/G960FXXU1ARCC:user/release-keys
 
     # _DEVICE_NAME = "j7y17lte"
-    _DEVICE_NAME = "dream2lte"
+    # _DEVICE_NAME = "dream2lte"
+    _DEVICE_NAME = "starlte"
     _MANUFACTURER = "samsung"
-    _BUILD_VERSION = "dream2ltexx-user 8.0.0 R16NW G955FXXU1CRC7 release-keys"
+    _BUILD_VERSION = "starltexx-user 8.0.0 R16NW G960FXXU1ARCC release-keys"
+    # _BUILD_VERSION = "dream2ltexx-user 8.0.0 R16NW G955FXXU1CRC7 release-keys"
     # _BUILD_VERSION = "j7y17ltexx-user 8.0.0 M1AJQ J730FXXU3BRK2 release-keys"
     _AXOLOTL = True
 
