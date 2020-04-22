@@ -23,7 +23,8 @@ class AndroidYowsupEnv(YowsupEnv):
 
     _VERSION = "2.20.108"
     _OS_NAME = "Android"
-    _OS_VERSION = "8.0.0"
+    # _OS_VERSION = "8.0.0"
+    _OS_VERSION = "9.0.0"
 
     # Samsung Galaxy J7 2017 SM-J730F (8.1.0):Samsung:SM-J730F=samsung/j7y17ltexx/j7y17lte:8.1.0/M1AJQ/J730FXXU3BRK2:user/release-keys__2018-11-01
     # Samsung Galaxy S8 Plus SM-G955F (8.0.0):Samsung:SM-G955F=samsung/dream2ltexx/dream2lte:8.0.0/R16NW/G955FXXU1CRC7:user/release-keys
@@ -34,11 +35,17 @@ class AndroidYowsupEnv(YowsupEnv):
     # _DEVICE_NAME = "j7y17lte"
     # _DEVICE_NAME = "dream2lte"
     # _DEVICE_NAME = "starlte"
-    _DEVICE_NAME = "herolte"
-    _MANUFACTURER = "samsung"
-    _BUILD_VERSION = "heroltexx-user 8.0.0 R16NW G930FXXU2ERD5 release-keys"
+    # _DEVICE_NAME = "herolte"
+    _DEVICE_NAME = "davinci"
+
+    # _MANUFACTURER = "samsung"
+    _MANUFACTURER = "xiaomi"
+
     # _BUILD_VERSION = "dream2ltexx-user 8.0.0 R16NW G955FXXU1CRC7 release-keys"
     # _BUILD_VERSION = "j7y17ltexx-user 8.0.0 M1AJQ J730FXXU3BRK2 release-keys"
+    # _BUILD_VERSION = "heroltexx-user 8.0.0 R16NW G930FXXU2ERD5 release-keys"
+    _BUILD_VERSION = "davinci-user 9 PKQ1.190302.001 V11.0.3.0.PFJCNXM release-keys"
+
     _AXOLOTL = True
 
     def getVersion(self):
