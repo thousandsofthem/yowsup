@@ -18,11 +18,12 @@ class AndroidYowsupEnv(YowsupEnv):
         "KtOrNTQcc0e+t"
 
     # _MD5_CLASSES = "WtoJ21Y6+22aerd95Bq3Ng==" # 2.20.108
-    _MD5_CLASSES = "WxYuEqYgpjWGZ2S7H+uPOw==" # 2.20.101
+    # _MD5_CLASSES = "WxYuEqYgpjWGZ2S7H+uPOw==" # 2.20.101
+    _MD5_CLASSES = "wf4DOEv56iPivR/FV3M+Jg==" # 2.20.140
     _KEY = "eQV5aq/Cg63Gsq1sshN9T3gh+UUp0wIw0xgHYT1bnCjEqOJQKCRrWxdAe2yvsDeCJL+Y4G3PRD2HUF7oUgiGo8vGlNJOaux26k+A2F3hj8A="
 
 
-    _VERSION = "2.20.101"
+    _VERSION = "2.20.140"
     _OS_NAME = "Android"
     # _OS_VERSION = "8.0.0"
     _OS_VERSION = "9.0.0"
